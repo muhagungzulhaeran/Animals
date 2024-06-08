@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_animals_images"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="40dp">
+                <ImageView
+                    android:id="@+id/animal_image_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monyet"
+                    android:contentDescription="@string/image_detail" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/animal_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cv_animals_images"
+                android:layout_centerInParent="true"
+                android:hint="@string/animal_s_name"
+                android:textColor="#44509c"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+            <View
+                android:id="@+id/v_line1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/animal_name"
+                android:layout_marginTop="10dp"
+                android:background="#D3D3D3"/>
+
+            <TextView
+                android:id="@+id/tv_deskripsi"
+                android:layout_below="@id/v_line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:text="@string/deskripsi"
+                android:textColor="#808080"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_deskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/tv_deskripsi"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/description_isi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="20sp"
+                    android:hint="@string/description"/>
+                </ScrollView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tv_habitat"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#808080"
+                android:layout_below="@+id/cv_deskripsi"
+                android:text="@string/habitat"/>
+            <TextView
+                android:id="@+id/tv_isi_habitat"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint=": Hutan"
+                android:text="@null"
+                android:layout_alignBaseline="@+id/tv_habitat"
+                android:layout_toEndOf="@id/tv_habitat"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/tv_masaHidup"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginStart="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#808080"
+                android:layout_below="@+id/tv_habitat"
+                android:text="@string/masa_hidup"/>
+            <TextView
+                android:id="@+id/tv_isi_masaHidup"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint=": 10 tahun"
+                android:text="@null"
+                android:textSize="20sp"
+                android:layout_alignBaseline="@+id/tv_masaHidup"
+                android:layout_toEndOf="@id/tv_masaHidup"/>
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

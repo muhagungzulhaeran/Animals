@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Animals</string>
+    <string name="animals_name">Nama Binatang</string>
+    <string name="description">Deskripsi</string>
+    <string name="list">list</string>
+    <string name="grid">grid</string>
+    <string name="animal_s_name">Animal\'s Name</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="about">about</string>
+    <string name="name">NAME</string>
+    <string name="email">EMAIL</string>
+    <string name="phone">PHONE</string>
+    <string name="image_detail">image_detail</string>
+    <string name="the_animals">The Animals</string>
+    <string name="muh_agung_zulhaeran">: Muh Agung Zulhaeran</string>
+    <string name="a135d4ky3544_bangkit_academy">: a135d4ky3544@bangkit.academy</string>
+    <string name="_089694954534">: 089694954534</string>
+    <string name="share">share</string>
+    <string name="habitat">Habitat</string>
+    <string name="masa_hidup">Masa hidup</string>
+
+    <string-array name="data_name">
+        <item>anjing</item>
+        <item>burung</item>
+        <item>capybara</item>
+        <item>harimau</item>
+        <item>jerapah</item>
+        <item>kambing</item>
+        <item>kucing</item>
+        <item>kuda</item>
+        <item>monyet</item>
+        <item>panda</item>
+        <item>sapi</item>
+        <item>singa</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Anjing adalah mamalia yang telah mengalami domestikasi dari serigala abu-abu (canis lupus) sejak 15.000 tahun yang lalu atau mungkin sudah sejak 100.000 tahun yang lalu berdasarkan bukti genetik berupa penemuan fosil dan tes DNA.</item>
+        <item>Burung adalah hewan berdarah panas yang berkembang biak dengan cara bertelur. Ciri-ciri burung secara umum, yaitu memiliki tubuh yang tertutup bulu. Berdasarkan ciri-ciri burung tersebut maka burung masuk ke dalam kelas Aves</item>
+        <item>Capybara adalah hewan pengerat yang memiliki bentuk tubuh seperti berang-berang. Hewan ini termasuk hewan liar dalam famili Rodentia dengan ukuran tubuh yang lebih besar dibanding sejenisnya.</item>
+        <item>Harimau (Panthera tigris) adalah spesies kucing terbesar yang masih hidup dari genus Panthera. Harimau memiliki ciri loreng yang khas pada bulunya, berupa garis-garis vertikal gelap pada bulu oranye, dengan bulu bagian bawah berwarna putih. </item>
+        <item>Jerapah atau zarafah (nama ilmiah: Giraffa camelopardalis) adalah mamalia berkuku genap endemik Afrika dan merupakan spesies hewan tertinggi yang hidup di darat. Jerapah jantan dapat mencapai tinggi 4,8 sampai 5,5 meter dan memiliki berat yang dapat mencapai 1.360 kilogram. Jerapah betina biasanya sedikit lebih pendek dan lebih ringan.</item>
+        <item>Kambing ternak (Capra aegagrus hircus) merupakan salah satu subspesies yang dipelihara atau dijinakkan dari kambing liar Asia Barat Daya dan Eropa Timur. Kambing merupakan anggota dari keluarga Bovidae dan bersaudara dengan biri-biri karena keduanya tergolong dalam sub famili Caprinae. Terdapat lebih 300 jenis kambing yang berbeda-beda.</item>
+        <item>Kucing disebut juga kucing domestik[4][5] atau kucing rumah (nama ilmiah: Felis silvestris catus atau Felis catus) adalah sejenis mamalia karnivora dari keluarga Felidae. Kata "kucing" biasanya merujuk kepada "kucing" yang telah dijinakkan,[6] tetapi bisa juga bisa merujuk kepada "kucing besar" seperti singa dan harimau yang juga termasuk jenis kucing.</item>
+        <item>Kuda (Equus caballus atau us ferus caballus) adalah salah satu dari sepuluh spesies modern mamalia dari genus Equus. Sejak dahulu hewan ini merupakan salah satu hewan peliharaan yang berfungsi secara ekonomis dan memiliki nilai historis. </item>
+        <item>Monyet adalah istilah untuk semua anggota primata yang bukan prosimia ("pra-kera", seperti lemur dan tarsius) atau kera, baik yang tinggal di Dunia Lama maupun Dunia Baru. Hingga saat ini dikenal 264 jenis monyet yang hidup di dunia. </item>
+        <item>Panda raksasa tinggal di wilayah pegunungan, seperti Sichuan dan Tibet. Pada setengah abad ke-20 terakhir, panda menjadi semacam lambang negara Tiongkok, dan sekarang ditampilkan pada uang emas negara tersebut.</item>
+        <item>Sapi atau lembu adalah hewan ternak anggota famili Bovidae dan subfamili Bovinae. Sapi dipelihara terutama untuk dimanfaatkan susu dan dagingnya sebagai pangan manusia. Hasil sampingannya seperti kulit, jeroan, tanduk, dan kotorannya juga dimanfaatkan untuk berbagai keperluan manusia.</item>
+        <item>Singa (Sanskerta: Siṃha, atau nama ilmiahnya Panthera leo) adalah spesies hewan dari keluarga felidae atau keluarga kucing. Singa berada di benua Afrika dan sebagian di wilayah India. Singa merupakan hewan yang hidup berkelompok. Biasanya terdiri dari seekor jantan banyak betina. Kelompok ini menjaga daerah kekuasaannya. </item>
+    </string-array>
+
+    <string-array name="data_habitat">
+        <item>Alam Liar</item>
+        <item>Beragam</item>
+        <item>Rawa</item>
+        <item>Hutan</item>
+        <item>Savana</item>
+        <item>Pegunungan</item>
+        <item>Alam Liar</item>
+        <item>Padang</item>
+        <item>Hutan</item>
+        <item>Bambu</item>
+        <item>Padang</item>
+        <item>Savana</item>
+    </string-array>
+
+    <string-array name="data_masaHidup">
+        <item>10 tahun</item>
+        <item>Varian</item>
+        <item>8 tahun</item>
+        <item>10 tahun</item>
+        <item>20 tahun</item>
+        <item>10 tahun</item>
+        <item>12 tahun</item>
+        <item>25 tahun</item>
+        <item>varian</item>
+        <item>20 tahun</item>
+        <item>18 tahun</item>
+        <item>10 tahun</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/anjing</item>
+        <item>@drawable/burung</item>
+        <item>@drawable/capybara</item>
+        <item>@drawable/harimau</item>
+        <item>@drawable/jerapah</item>
+        <item>@drawable/kambing</item>
+        <item>@drawable/kucing</item>
+        <item>@drawable/kuda</item>
+        <item>@drawable/monyet</item>
+        <item>@drawable/panda</item>
+        <item>@drawable/sapi</item>
+        <item>@drawable/singa</item>
+    </integer-array>
+</resources>
